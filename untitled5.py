@@ -16,7 +16,7 @@ pip install streamlit-chat
 import streamlit as st
 import openai
 from streamlit_chat import message
-openai.api_key = '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'
+openai.api_key = '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'
 
 def api_calling(prompt):
     completions = openai.Completion.create(
